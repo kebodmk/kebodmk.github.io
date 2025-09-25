@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; padding:0; line-height:1.45; color:#111; background:#fff; }
+.site-header { padding:2rem; text-align:center; border-bottom:1px solid #eee; }
+.site-header nav a { margin:0 .5rem; text-decoration:none; color:inherit; }
+main { padding:2rem; max-width:900px; margin:0 auto; }
+.project { padding:1rem; border:1px solid #f0f0f0; border-radius:8px; margin-bottom:1rem; background:#fafafa; }
+footer { text-align:center; padding:1rem; color:#666; }
