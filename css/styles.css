@@ -8,12 +8,10 @@ body {
     background:#fff; }
 
 .site-header {
+  position: relative;
   padding: 2rem;
+  text-align: center;
   border-bottom: 1px solid #eee;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .site-header nav a { 
@@ -48,8 +46,13 @@ footer {
 }
 
 .profile-pic {
-  width: 80px;
-  height: 80px;
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   object-fit: cover;
 }
