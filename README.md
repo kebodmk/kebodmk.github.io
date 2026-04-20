@@ -5,7 +5,7 @@ Hi — I'm Declan Keller (GitHub: `kebodmk`). This repository contains my coding
 ## Highlights
 - **Landmark Conference Predictor** — Data-driven prediction model analyzing team performance to forecast Landmark Conference outcomes.
 
-- **Security Log Analyzer** — Python-based tool that parses CSV/JSON log files to detect failed login attempts and suspicious activity.
+- **Security Log Analyzer** — Python-based tool that parses TXT/CSV/JSON log files to detect failed login attempts and suspicious activity.
 - **Enchanted Labyrinth** — Text-based adventure game (Java) using OOP.
 - **Maze Solver** — Recursive/backtracking maze solver (CS122).
 - **Sunflower Turtle Graphics** — Python turtle drawings demonstrating functions & loops.
