@@ -109,6 +109,25 @@ h2 {
   margin-bottom: 0.4rem;
 }
 
+.project-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+
+  background: var(--button-bg);
+  color: var(--button-text);
+
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+
+  transition: 0.2s ease;
+}
+
+.project-btn:hover {
+  background: var(--button-hover);
+}
+
 /* FOOTER */
 footer { 
   text-align: center; 
