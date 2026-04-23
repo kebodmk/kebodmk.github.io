@@ -112,20 +112,29 @@ h2 {
 .project-btn {
   display: inline-block;
   margin-top: 10px;
-  padding: 8px 12px;
+  padding: 10px 14px;
 
   background: var(--button-bg);
   color: var(--button-text);
 
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 10px;
+
   border: 1px solid var(--border);
 
-  transition: 0.2s ease;
+  /* gives it depth */
+  box-shadow: 0 3px 0 var(--primary);
+
+  font-weight: 600;
+  letter-spacing: 0.3px;
+
+  transition: all 0.15s ease;
 }
 
 .project-btn:hover {
   background: var(--button-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 0 var(--primary);
 }
 
 /* FOOTER */
