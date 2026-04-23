@@ -81,6 +81,14 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+.about {
+  padding: 1.3rem; 
+  border-radius: 12px; 
+  margin-bottom: 1.2rem;
+  background: var(--card);
+  border: 1px solid var(--soft);
+}
+
 /* PROJECT CARDS */
 .project { 
   padding: 1.3rem; 
